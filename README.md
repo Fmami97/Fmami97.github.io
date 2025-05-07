@@ -17,3 +17,5 @@ may 2025
 ## OTHER INFO
 
 GitHub icon by Icons8
+
+Other icons are provided from font awesome's website
