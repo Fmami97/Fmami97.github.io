@@ -50,7 +50,7 @@ nav{
     flex-direction: row;
     flex-wrap: wrap;
     margin: 20px auto;
-    height:500px;
+    height:auto;
   }
 
   .image-area {
@@ -112,8 +112,9 @@ nav{
   .text-area {
     text-align: center;
     width: 500px;   
-    height: fit-content;
+    height: 350px;
     padding: 20px;
+    margin: 20px 0;
     background-color: var(--primary-color);
     border: 3px solid var(--secondary-color);
     display:none;
@@ -122,14 +123,16 @@ nav{
 
   #traits-list ul,#licenses-list ul,#nationalities-list ul{
     width:100%;
+    height:60px;
+    margin:0;
     display: flex;
     justify-content: center;
     flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    
   }
-
-
+  
   
   #btn-row{
     width:100%;
@@ -184,30 +187,27 @@ nav{
     background-color: lightslategrey;
     color: lightgray;
   }
-
+  
   /* inline components */
-
+  
   h1{
-    font-size: 2.5em;
+    text-align: center;
+    font-size: 3em;
     font-weight: bolder;
   }
   h2{
-    font-size: 2em;
-    margin-bottom: 1em;
-}
-  h2{
-    font-size: 2em;
-    margin-bottom: 1em;
+    font-size: 2.5em;
+    margin-bottom: 20px;
   }
-
+  
   a{
     text-decoration: none;
     color: #F0F0F0;
-    padding: 0 20px;
-    font-size: 1.2em;
+    margin: 0 20px;
+    font-size: 1.4em;
     transition: color 0.3s ease-out ,background-color 0.3s ease-out;
   }
-
+  
   a:hover{
     color: var(--highlight-color);
   }
@@ -215,7 +215,7 @@ nav{
     color: var(--highlight-color);
   }
   
-
+  
   p{
     text-align: left;
     font-size: 1.2em;
@@ -224,15 +224,14 @@ nav{
   footer p{
     text-align: center;
   }
-
+  
   ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
     margin-bottom: 1em;
     max-height: 150px;
     overflow-y: auto;
   }
+
   .text-area li{
     text-align: left;
     margin-left: 2em;
@@ -241,24 +240,25 @@ nav{
   }
   
   
-/* for smaller resolutions */
-
-@media screen and (max-width: 1080px) {
+  /* for smaller resolutions */
+  
+  @media screen and (max-width: 1080px) {
     header{
-        width:100%;
-        height:auto;
-        padding: 0;
-        margin-bottom:30px;
+      width:100%;
+      height:auto;
+      padding: 0;
+      margin-bottom:30px;
     }
     nav{
-        width:100%;
-        flex-direction: column;
-        align-items: center;
-        margin: 0 auto;
-        padding:0;
+      width:100%;
+      height:120px;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+      padding:0;
     }
     main{
-        width: 100%;
+      width: 100%;
     }
     .container {
         flex-direction: column;
@@ -266,25 +266,35 @@ nav{
         justify-content: center;
         height: auto;
         gap:50px;
-    }
-    .text-area {
+
+      }
+      .text-area {
         width: 90%;
-    }
-    #main-image {
+        height:fit-content;
+      }
+      #main-image {
         margin-top: 20px;
         width: 90%;
         height: auto;
-    }
+      }
       /* inline components */
-
-    ul{
-      max-height : 250px;
-    }
-    h1{
+      #traits-list ul,#licenses-list ul,#nationalities-list ul{
+        font-size:1.5em;
+      }
+      
+      ul{
+        max-height : 250px;
+        font-size: 1.1em;
+      }
+    .text-area li{
       font-size: 1.5em;
     }
-    nav a{
-      font-size:1em;
+    
+    h1{
+      font-size: 3em;
+      line-height: 80px;
+      margin:0;
     }
+
   
 }
