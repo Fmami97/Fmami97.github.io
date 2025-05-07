@@ -14,4 +14,6 @@ Francesco Mami (https://github.com/Fmami97)
 
 may 2025
 
+## OTHER INFO
 
+GitHub icon by Icons8

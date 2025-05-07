@@ -47,7 +47,7 @@ export function applyTranslations(translations) {
         el.innerHTML = "";
         // within the json file, a semicolon represents a new line
         let text = translations[key];
-        if (text.includes(";")) {
+        if (text && text.includes(";")) {
             text.split(";").forEach((line) => {
                 let p = document.createElement('p');
                 p.textContent = line;
