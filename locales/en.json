@@ -1,0 +1,53 @@
+{
+    "title": "Francesco Mami's Card",
+    "about-title": "About me",
+    "nationality-title":"Nationality",
+    "traits-title": "Personality traits",
+    "hobbies-title": "Hobbies",
+    "languages-title": "Languages",
+    "licenses-title": "Driving licenses",
+    "skills-title": "Soft skills",
+    "about-me": "Holding a Bachelor’s degree in Software Engineering, I am eager to take on new challenges through ambitious projects.; As a passionate web developer, I have strong proficiency in Angular, React, and multiple programming languages.;Detail-oriented and well-organized, I meticulously document key information to enhance team collaboration and ensure smooth knowledge transfer.",
+    "contact": "Interested to chat together?;You may find my contact information on my linktree profile by scanning (or clicking) on the QR-code below.",
+    "footer": "Web app created by Francesco Mami - 2025",
+    "other": {
+        "traits": {
+            "trait1": "Autonomous",
+            "trait2": "Curious",
+            "trait3": "Organized"
+        },
+        "languages": {
+            "language1": "French (native language)",
+            "language2": "Italian (native language)",
+            "language3": "English (C1 - Professional)",
+            "language4": "Spanish (B1 - Limited)"
+        },
+        "hobbies":{
+            "hobby1":"Trekking with weights in nature",
+            "hobby2":"Reading novels",
+            "hobby3":"Improving my Spanish skills",
+            "hobby4":"Working on personal projects"
+        },
+        "licenses":{
+            "permis1":"Driving License B",
+            "permis2":"Driving License A1"
+        },
+        "skills": {
+            "skill1": "Automated testing",
+            "skill2": "Agile methodologies",
+            "skill3": "Version control (Git)", 
+            "skill4": "CI/CD",
+            "skill5": "RESTful APIs",
+            "skill6": "Responsive design",
+            "skill7": "Cloud computing and deployment",
+            "skill8": "Database management",
+            "skill9": "technical architecture",
+            "skill10": "UX/UI design"
+        },
+        "nationalities": {
+            "nationality1": "French",
+            "nationality2": "and",
+            "nationality3": "Italian"
+        }
+    }
+  }

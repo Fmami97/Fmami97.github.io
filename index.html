@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Card</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1 data-i18n="title">Welcome</h1>
+            <div>
+                <a href="#" id="lang-fr">Français</a> </li>
+                <a href="#" id="lang-en">English</a> </li>
+                <a href="#" id="lang-it">Italiano</a> </li>
+            </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <div class="container">
+            <div class="image-area">
+                <img src="resources/profile/profile_2024.jpg" alt="Image de profil" id="main-image">
+                <div class="icon" aria-label="button" data-text="about-me"><i
+                        class="fa-solid fa-address-card fa-xl"></i>
+                </div>
+                <div class="icon" aria-label="button" data-text="languages"><i class="fa-solid fa-flag fa-xl"></i></div>
+                <div class="icon" aria-label="button" data-text="hobbies"><i class="fa-solid fa-rocket fa-xl"></i>
+                </div>
+                <div class="icon" aria-label="button" data-text="skills"><i
+                        class="fa-solid fa-graduation-cap fa-xl"></i>
+                </div>
+                <div class="icon" aria-label="button" data-text="contact"><i class="fa-solid fa-phone fa-xl"></i></div>
+            </div>
+            <div class="text-area" id="about-me">
+                <h2 data-i18n="about-title">About</h2>
+                <p data-i18n="about-me">Hello world</p>
+            </div>
+            <div class="text-area" id="languages">
+                <h2 data-i18n="nationality-title"></h2>
+                <div id="nationalities-list"></div>
+
+                <h2 data-i18n="languages-title"></h2>
+                <div id="languagesList"></div>
+            </div>
+            <div class="text-area" id="hobbies">
+                <h2 data-i18n="traits-title"></h2>
+                <div id="traits-list"></div>
+                <h2 data-i18n="hobbies-title"></h2>
+                <div id="hobbies-list"></div>
+            </div>
+            <div class="text-area" id="skills">
+                <h2 data-i18n="licenses-title"></h2>
+                <div id="licenses-list"></div>
+                <h2 data-i18n="skills-title"></h2>
+                <div id="skills-list"></div>
+            </div>
+            <div class="text-area" id="contact">
+                <h2>Contact</h2>
+                <p data-i18n="contact"></p>
+                <a href="https://linktr.ee/Fmami97" target="_blank"><img src="resources/profile/LinkTree.png"
+                        alt="QR Code for LinkTree" id="qr-code" /></a>
+            </div>
+        </div>
+        <div id="btn-row">
+            <button id="btn-color1" class="btn-colors active">1</button>
+            <button id="btn-color2" class="btn-colors">2</button>
+            <button id="btn-color3" class="btn-colors">3</button>
+            <button id="btn-color4" class="btn-colors">4</button>
+            <button id="btn-color5" class="btn-colors">5</button>
+        </div>
+        <footer>
+            <p data-i18n="footer">© 2025 Portfolio</p>
+        </footer>
+    </main>
+    <script type="module" src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/ab7a4ede5b.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

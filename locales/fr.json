@@ -1,0 +1,55 @@
+{
+    "title": "Carte de Francesco Mami",
+    "about-title": "À propos de moi",
+    "traits-title": "Traits de personnalité",
+    "hobbies-title": "Centres d'intérêt",
+    "nationality-title":"Nationalité",
+    "languages-title": "Langues",
+    "licenses-title": "Permis de conduire",
+    "skills-title": "Compétences techniques",
+    "about-me": "Titulaire d’un Bachelor ISC en ingénierie logicielle, je cherche à relever de nouveaux défis au cours de projets ambitieux.;Développeur web passionné, je maîtrise Angular, React et plusieurs langages de programmation;Rigoureux et organisé, je documente minutieusement les informations essentielles, facilitant ainsi la collaboration et la transmission des connaissances au sein des équipes",
+    "contact": "Intéressé à discuter ensemble?;Vous pouvez consulter mes coordonnées depuis mon profil linktree en scannant (ou en cliquant) sur le QR-Code ci-dessous.",
+    "footer": "App web réalisée par Francesco Mami - 2025",
+    "other": {
+        "traits": {
+            "trait1": "Autonome",
+            "trait2": "Curieux",
+            "trait3": "Organisé"
+        },
+        "languages": {
+            "language1": "Français (langue maternelle)",
+            "language2": "Italien (langue maternelle)",
+            "language3": "Anglais (C1 - Professionnel)",
+            "language4": "Espagnol (B1 - Limité)"
+        },
+        "hobbies":{
+            "hobby1":"Trekking lesté en nature",
+            "hobby2":"Lecture de romans",
+            "hobby3":"Améliorer mon niveau d'Espagnol",
+            "hobby4":"Réaliser des projets personnels"
+        },
+        "licenses":{
+            "permis1":"Permis B",
+            "permis2":"Permis A1"
+        },
+        "skills": {
+            "skill1": "Testing automatisé",
+            "skill2": "Méthodologies agiles",
+            "skill3": "Contrôle de version (Git)",	 
+            "skill4": "CI/CD",
+            "skill5": "RESTful APIs",
+            "skill6": "Design Responsive",
+            "skill7": "Cloud computing et déploiement",
+            "skill8": "Gestion de base de données",
+            "skill9": "Architectures techniques",
+            "skill10": "UX/UI design"
+        },
+        "nationalities": {
+            "nationality1": "Français",
+            "nationality2": "et",
+            "nationality3": "Italien"
+        }
+    }
+  }
+
+  
