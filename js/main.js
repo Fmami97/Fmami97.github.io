@@ -27,7 +27,7 @@ function resetText(selectedId, list) {
 
 
 function togglePicture(e) {
-    let imgSrc = e.target.src;
+    let imgSrc = e.currentTarget.src;
     if (imgSrc.includes("2024.jpg")) {
         e.target.src = "resources/profile/profile_2023.png";
     } else if (imgSrc.includes("2023.png")) {
@@ -55,14 +55,13 @@ icons.forEach(icon => {
 const buttons = document.querySelectorAll('.btn-colors');
 let selectedButton = buttons[0].id;
 buttons.forEach(button => {
-
     //sets the active colors of the website when clicking on the button
     button.addEventListener('click', (e) => {
-        if (selectedButton != e.target.id) {
+        if (selectedButton != e.currentTarget.id) {
             document.getElementById(selectedButton).classList.remove("active");
-            document.getElementById(e.target.id).classList.add("active");
-            selectedButton = e.target.id;
-            const computedStyle = getComputedStyle(e.target);
+            document.getElementById(e.currentTarget.id).classList.add("active");
+            selectedButton = e.currentTarget.id;
+            const computedStyle = getComputedStyle(e.currentTarget);
             const primary = computedStyle.backgroundColor;
             const secondary = computedStyle.borderColor;
             const highlight = computedStyle.color;
@@ -74,8 +73,8 @@ buttons.forEach(button => {
     });
     //adds a preview of the new color of the website when hovering over the button
     button.addEventListener('mouseover', (e) => {
-        if (selectedButton != e.target.id) {
-            const computedStyle = getComputedStyle(e.target);
+        if (selectedButton != e.currentTarget.id) {
+            const computedStyle = getComputedStyle(e.currentTarget);
             const primary = computedStyle.backgroundColor;
             const secondary = computedStyle.borderColor;
             const highlight = computedStyle.color;
@@ -86,7 +85,7 @@ buttons.forEach(button => {
     });
     //restores to the selected button color when mouseout
     button.addEventListener('mouseout', (e) => {
-        if (selectedButton != e.target.id) {
+        if (selectedButton != e.currentTarget.id) {
             const computedStyle = getComputedStyle(document.getElementById(selectedButton));
             const primary = computedStyle.backgroundColor;
             const secondary = computedStyle.borderColor;

@@ -142,11 +142,13 @@ nav{
   .btn-colors{
     color: var(--text-color);
     text-decoration: none;
-    width:50px;
-    height:50px;
+    width:60px;
+    height:60px;
     text-align: center;
-    font-size: 1.2em;
     transition: scale 0.3s ease-out;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     border :3px solid;
     cursor: pointer;
